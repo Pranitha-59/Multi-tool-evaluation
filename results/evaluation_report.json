@@ -1,0 +1,121 @@
+{
+    "total_evaluations": 75,
+    "successful_evaluations": 60,
+    "failed_evaluations": 15,
+    "error_rate_percentage": 20.0,
+    "tool_selection_accuracy": 100.0,
+    "tool_usage": {
+        "calculator": 20,
+        "text_length": 20,
+        "keyword_search": 20,
+        "random_response": 15
+    },
+    "average_execution_time": {
+        "calculator": 9e-05,
+        "text_length": 3e-06,
+        "keyword_search": 4e-06,
+        "random_response": 8e-06
+    },
+    "errors": {
+        "calculator": 5,
+        "text_length": 5,
+        "keyword_search": 5
+    },
+    "test_case_analysis": {
+        "TC001": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC002": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC003": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC004": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC005": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC006": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC007": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC008": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC009": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC010": {
+            "runs": 5,
+            "unique_outputs": 3,
+            "consistency_percentage": 40.0,
+            "status": "Variable"
+        },
+        "TC011": {
+            "runs": 5,
+            "unique_outputs": 3,
+            "consistency_percentage": 40.0,
+            "status": "Variable"
+        },
+        "TC012": {
+            "runs": 5,
+            "unique_outputs": 3,
+            "consistency_percentage": 40.0,
+            "status": "Variable"
+        },
+        "TC013": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC014": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        },
+        "TC015": {
+            "runs": 5,
+            "unique_outputs": 1,
+            "consistency_percentage": 100.0,
+            "status": "Consistent"
+        }
+    },
+    "complexity_analysis": {
+        "easy": 88.0,
+        "medium": 88.0,
+        "hard": 88.0
+    }
+}

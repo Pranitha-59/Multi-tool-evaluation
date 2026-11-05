@@ -1,0 +1,134 @@
+[
+  {
+    "id": "TC001",
+    "topic": "mathematics",
+    "complexity": "easy",
+    "tool": "calculator",
+    "query": "Calculate 25 multiplied by 4",
+    "input": "25 * 4"
+  },
+  {
+    "id": "TC002",
+    "topic": "mathematics",
+    "complexity": "medium",
+    "tool": "calculator",
+    "query": "Calculate 125 divided by 5 plus 18",
+    "input": "125 / 5 + 18"
+  },
+  {
+    "id": "TC003",
+    "topic": "mathematics",
+    "complexity": "hard",
+    "tool": "calculator",
+    "query": "Calculate the expression involving multiplication and division",
+    "input": "(45 * 12) / (3 + 6)"
+  },
+  {
+    "id": "TC004",
+    "topic": "text_processing",
+    "complexity": "easy",
+    "tool": "text_length",
+    "query": "How many characters are in this text?",
+    "input": "Hello world"
+  },
+  {
+    "id": "TC005",
+    "topic": "text_processing",
+    "complexity": "medium",
+    "tool": "text_length",
+    "query": "Find the length of this sentence",
+    "input": "Multi-tool systems need reliable evaluation."
+  },
+  {
+    "id": "TC006",
+    "topic": "text_processing",
+    "complexity": "hard",
+    "tool": "text_length",
+    "query": "Count the characters in this long text",
+    "input": "Evaluating complex AI systems requires repeated experiments and detailed logging."
+  },
+  {
+    "id": "TC007",
+    "topic": "keyword_search",
+    "complexity": "easy",
+    "tool": "keyword_search",
+    "query": "Check whether this text contains the keyword Python",
+    "input": {
+      "text": "Python is a programming language.",
+      "keyword": "Python"
+    }
+  },
+  {
+    "id": "TC008",
+    "topic": "keyword_search",
+    "complexity": "medium",
+    "tool": "keyword_search",
+    "query": "Check whether this text contains the keyword communication",
+    "input": {
+      "text": "Ericsson develops communication technology and network solutions.",
+      "keyword": "communication"
+    }
+  },
+  {
+    "id": "TC009",
+    "topic": "keyword_search",
+    "complexity": "hard",
+    "tool": "keyword_search",
+    "query": "Check whether this text contains the keyword evaluation",
+    "input": {
+      "text": "Multi-agent systems can use several tools to solve complex problems.",
+      "keyword": "evaluation"
+    }
+  },
+  {
+    "id": "TC010",
+    "topic": "ai_response",
+    "complexity": "easy",
+    "tool": "random_response",
+    "query": "What is artificial intelligence?",
+    "input": "What is artificial intelligence?"
+  },
+  {
+    "id": "TC011",
+    "topic": "ai_response",
+    "complexity": "medium",
+    "tool": "random_response",
+    "query": "What are the benefits of machine learning?",
+    "input": "What are the benefits of machine learning?"
+  },
+  {
+    "id": "TC012",
+    "topic": "ai_response",
+    "complexity": "hard",
+    "tool": "random_response",
+    "query": "How can multi-agent systems be evaluated?",
+    "input": "How can multi-agent systems be evaluated?"
+  },
+  {
+    "id": "TC013",
+    "topic": "error_testing",
+    "complexity": "easy",
+    "tool": "calculator",
+    "query": "Calculate 10 divided by zero",
+    "input": "10 / 0"
+  },
+  {
+    "id": "TC014",
+    "topic": "error_testing",
+    "complexity": "medium",
+    "tool": "text_length",
+    "query": "Find the length of this missing value",
+    "input": null
+  },
+  {
+    "id": "TC015",
+    "topic": "error_testing",
+    "complexity": "hard",
+    "tool": "keyword_search",
+    "query": "Check whether this text contains the keyword Python",
+    "input": {
+      "text": null,
+      "keyword": "Python"
+    }
+  }
+]
